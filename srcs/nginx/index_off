@@ -1,0 +1,18 @@
+@@ -50,7 +50,7 @@
+ 
+ 	# Add index.php to the list if you are using PHP
+ 	index index.html index.htm index.php
+-	#hello42.html
++	hello42.html
+ 	;
+ 
+ 	server_name 42-ft_server;
+@@ -59,7 +59,7 @@
+ 		# First attempt to serve request as file, then
+ 		# as directory, then fall back to displaying a 404.
+ 		try_files $uri $uri/ =404;
+-		autoindex on;
++		autoindex off;
+ 	}
+ 
+ 	# pass PHP scripts to FastCGI server

@@ -1,0 +1,17 @@
+docker build -t <image> .
+
+docker run -tdi -p 80:80 -p 443:443 --name <container> <image>
+
+docker exec -it <container> bash
+
+- - -
+
+docker system prune
+
+docker container prune
+
+- - -
+
+ohmyzsh
+
+/etc/nginx/sites-available
